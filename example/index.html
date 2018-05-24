@@ -35,16 +35,24 @@
     
     <div id="search" class="window">
         <h2>Search Data</h2>
+        <form id="searchForm" autocomplete="off">
+            <label>Search Term:</label>
+            <input id="searchFor" type="text" placeholder="Search...">
+            <div id="results"></div>
+        </form>
         <button onclick="window.location.reload()">Back</button>
     </div>
     
     <div id="view" class="window">
         <h2>View Data</h2>
+        <div id="allData"></div>
         <button onclick="window.location.reload()">Back</button>
     </div>
     
     <div id="remove" class="window">
         <h2>Remove Data</h2>
+        <form id="removeForm" autocomplete="off">
+        </form>
         <button onclick="window.location.reload()">Cancel</button>
     </div>
     
