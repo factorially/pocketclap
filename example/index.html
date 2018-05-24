@@ -1,0 +1,60 @@
+<!-- Copyright (c) 2018 factorially. See LICENSE for details. -->
+
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8">
+    <title>PocketClap Demo</title>
+    <link rel="stylesheet" href="../pocketclap.css">
+</head>
+<body>
+    
+    <!-- This is where the app title should go -->
+    <h1>PocketClap</h1>
+    
+    <!-- Define windows of the app here -->
+    <div id="menu" class="window">
+        <h2>Menu</h2>
+        <p>Please select the option you would like to take.</p>
+        <button id="addButton">Add Data</button>
+        <button id="searchButton">Search Data</button>
+        <button id="viewButton">View Data</button>
+        <button id="removeButton">Remove Data</button>
+    </div>
+    
+    <div id="add" class="window">
+        <h2>Add Data</h2>
+        <form id="addForm" autocomplete="off">
+            <label>Data key:</label>
+            <input id="dataKey" type="text" placeholder="Data key"><br>
+            <label>Data value:</label>
+            <input id="dataValue" type="text" placeholder="Data value"><br>
+            <button>Save</button>
+            <button onclick="window.location.reload()">Cancel</button>
+        </form>
+    </div>
+    
+    <div id="search" class="window">
+        <h2>Search Data</h2>
+        <button onclick="window.location.reload()">Back</button>
+    </div>
+    
+    <div id="view" class="window">
+        <h2>View Data</h2>
+        <button onclick="window.location.reload()">Back</button>
+    </div>
+    
+    <div id="remove" class="window">
+        <h2>Remove Data</h2>
+        <button onclick="window.location.reload()">Cancel</button>
+    </div>
+    
+    <!-- A footer can go down here -->
+    <p class="footer">Copyright (c) 2018 factorially. See LICENSE for details.</p>
+    
+    <!-- PocketClap script -->
+    <script src="../pocketclap.js"></script>
+    
+    <!-- A script for internal logic for this example -->
+    <script src="example.js"></script>
+    
+</body>

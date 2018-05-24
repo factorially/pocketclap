@@ -1,0 +1,67 @@
+/* 
+ * pocketclass.css
+ * Copyright (c) 2018 factorially. See LICENSE for details.
+ */
+
+:root {
+    --theme-color: darkblue;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: sans-serif;
+    color: #3a3a3a;
+}
+h1 {
+    margin: 0;
+    height: 50px;
+    background-color: #d0d0d0;
+}
+h2 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--theme-color);
+}
+button {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: var(--theme-color);
+    border: 3px solid var(--theme-color);
+    border-radius: 4px;
+    transition: background-color .2s;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: whitesmoke;
+    transition: background-color .2s;
+}
+input[type=text] {
+    width: 75%;
+    height: 40px;
+    border: 3px solid var(--theme-color);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+label {
+    width: 20%;
+    display: inline-block;
+}
+
+.window {
+    padding: 30px 50px 0 50px;
+    min-height: 80vh;
+    display: none;
+}
+.pocketForm {
+    margin-bottom: 30px;
+}
+.footer {
+    font-size: 10px;
+    color: #acacac;
+    width: 100%;
+    text-align: center;
+}
